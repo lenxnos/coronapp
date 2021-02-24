@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Rubik';
+  font-weight: normal;
+  src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/Rubik/Rubik-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/Rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../fonts/Rubik/Rubik-BoldItalic.ttf');
+}
+
+:root {
+  --primaryColor: #1D957F;
+  --secondaryColor: #000000;
+  --tertiaryColor: #4285F4;
+  --quaternaryColor: #616161;
+  --white: #FCFDFE;
+  --font: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: block;
+  max-inline-size: 1232px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.header {
+  margin-block-start: 51px;
+}
+
+.header .header-logo {
+  position: relative;
+}
+
+.header .header-logo img {
+  position: absolute;
+  left: -20px;
+}
+
+
+.h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 55.44px;
+  font-family: var(--font);
+  color: var(--primaryColor);
+}
+
+.h1 span {
+  color: var(--secondaryColor);
+}
+
+p {
+  font-family: var(--font);
+  color: var(--quaternaryColor);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.08em;
+  margin-block: 11px;
+}
+
+.btn {
+  border: 0;
+  background: var(--primaryColor);
+  border-radius: 5px;
+  padding-inline: 29px;
+  padding-block: 14px;
+  letter-spacing: 0.14em;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: var(--white);
+  line-height: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.section-content .h1 p {
+  max-width: 375px;
+}
